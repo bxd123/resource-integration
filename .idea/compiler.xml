@@ -64,7 +64,7 @@
       <module name="integration-gateway" options="-parameters" />
       <module name="integration-hot-search" options="-parameters" />
       <module name="integration-logs" options="-parameters" />
-      <module name="integration-ops" options="" />
+      <module name="integration-ops" options="-parameters" />
       <module name="integration-report" options="-parameters" />
       <module name="integration-resource" options="-parameters" />
       <module name="integration-scope-api" options="-parameters" />
