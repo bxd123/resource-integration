@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/bilibili-hot-search/pom.xml" />
+        <option value="$PROJECT_DIR$/integration-service-api/blade-demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/integration-service/integration-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/blade-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-common/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-ops/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-service/pom.xml" />
+        <option value="$PROJECT_DIR$/integration-service/integration-log/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger-ui/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

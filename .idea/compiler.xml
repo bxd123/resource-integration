@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="integration-seata-order" />
+        <module name="integration-auth" />
+        <module name="integration-common" />
+        <module name="integration-gateway" />
+        <module name="integration-resource" />
+        <module name="integration-system" />
+        <module name="integration-logs" />
+        <module name="integration-system-api" />
+        <module name="integration-user" />
+        <module name="integration-admin" />
+        <module name="integration-dict-api" />
+        <module name="integration-seata-storage" />
+        <module name="integration-desk" />
+        <module name="integration-demo-api" />
+        <module name="integration-hot-search" />
+        <module name="integration-develop" />
+        <module name="integration-scope-api" />
+        <module name="integration-desk-api" />
+        <module name="integration-user-api" />
+        <module name="integration-swagger" />
+        <module name="integration-demo" />
+        <module name="integration-report" />
+        <module name="swagger-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blade-demo-api" target="1.8" />
+      <module name="blade-desk-api" target="1.8" />
+      <module name="blade-dict-api" target="1.8" />
+      <module name="blade-log" target="1.8" />
+      <module name="blade-scope-api" target="1.8" />
+      <module name="blade-system-api" target="1.8" />
+      <module name="blade-user-api" target="1.8" />
+      <module name="swagger-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blade-demo-api" options="-parameters" />
+      <module name="blade-desk-api" options="-parameters" />
+      <module name="blade-dict-api" options="-parameters" />
+      <module name="blade-log" options="-parameters" />
+      <module name="blade-scope-api" options="-parameters" />
+      <module name="blade-system-api" options="-parameters" />
+      <module name="blade-user-api" options="-parameters" />
+      <module name="integration-admin" options="-parameters" />
+      <module name="integration-auth" options="-parameters" />
+      <module name="integration-common" options="-parameters" />
+      <module name="integration-demo" options="-parameters" />
+      <module name="integration-demo-api" options="-parameters" />
+      <module name="integration-desk" options="-parameters" />
+      <module name="integration-desk-api" options="-parameters" />
+      <module name="integration-develop" options="-parameters" />
+      <module name="integration-dict-api" options="-parameters" />
+      <module name="integration-gateway" options="-parameters" />
+      <module name="integration-hot-search" options="-parameters" />
+      <module name="integration-logs" options="-parameters" />
+      <module name="integration-ops" options="" />
+      <module name="integration-report" options="-parameters" />
+      <module name="integration-resource" options="-parameters" />
+      <module name="integration-scope-api" options="-parameters" />
+      <module name="integration-seata-order" options="-parameters" />
+      <module name="integration-seata-storage" options="-parameters" />
+      <module name="integration-service" options="" />
+      <module name="integration-service-api" options="" />
+      <module name="integration-swagger" options="-parameters" />
+      <module name="integration-system" options="-parameters" />
+      <module name="integration-system-api" options="-parameters" />
+      <module name="integration-user" options="-parameters" />
+      <module name="integration-user-api" options="-parameters" />
+      <module name="resource-integration" options="" />
+      <module name="swagger-ui" options="-parameters" />
+    </option>
+  </component>
+</project>
