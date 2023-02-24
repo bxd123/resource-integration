@@ -1,0 +1,22 @@
+server:
+  port: 1000
+
+spring:
+  application:
+    name: host-search
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+knife4j:
+  enable: true # 开启增强模式
+
+
+search:
+  baseUrls:
+    - https://apis.jxcxin.cn
+    - https://tenapi.cn
+    - https://api.uomg.com
+
+logging:
+  config: classpath:log/logback_${profiles.active}.xml
+

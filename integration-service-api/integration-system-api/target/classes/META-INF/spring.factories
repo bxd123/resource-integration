@@ -1,0 +1,4 @@
+net.dreamlu.mica.feign.MicaFeignAutoConfiguration=\
+  org.example.system.feign.ISysClient
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.example.system.feign.ISysClientFallback

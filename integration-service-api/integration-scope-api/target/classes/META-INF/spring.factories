@@ -1,0 +1,5 @@
+net.dreamlu.mica.feign.MicaFeignAutoConfiguration=\
+  org.example.system.feign.IDataScopeClient
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.example.system.config.ScopeConfiguration,\
+  org.example.system.feign.IDataScopeClientFallback

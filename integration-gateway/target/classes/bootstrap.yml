@@ -1,0 +1,17 @@
+ server:
+  port: 8000
+
+ spring:
+   cloud:
+     gateway:
+       discovery:
+         locator:
+           enabled: true
+     loadbalancer:
+       retry:
+         enabled: true
+     sentinel:
+       log:
+         dir: D:\qiwendong\logs
+
+

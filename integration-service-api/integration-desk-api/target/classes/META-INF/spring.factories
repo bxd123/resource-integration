@@ -1,0 +1,2 @@
+net.dreamlu.mica.feign.MicaFeignAutoConfiguration=\
+  org.example.desk.feign.INoticeClient
