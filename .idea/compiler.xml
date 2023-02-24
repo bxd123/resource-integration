@@ -23,35 +23,45 @@
         <module name="integration-demo-api" />
         <module name="integration-hot-search" />
         <module name="integration-develop" />
-        <module name="integration-scope-api" />
+        <module name="integration-swagger" />
         <module name="integration-desk-api" />
         <module name="integration-user-api" />
-        <module name="integration-swagger" />
         <module name="integration-demo" />
+        <module name="integration-scope-api" />
         <module name="integration-report" />
-        <module name="swagger-ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="blade-demo-api" target="1.8" />
-      <module name="blade-desk-api" target="1.8" />
-      <module name="blade-dict-api" target="1.8" />
-      <module name="blade-log" target="1.8" />
-      <module name="blade-scope-api" target="1.8" />
-      <module name="blade-system-api" target="1.8" />
-      <module name="blade-user-api" target="1.8" />
-      <module name="swagger-ui" target="1.8" />
+      <module name="integration-admin" target="1.8" />
+      <module name="integration-auth" target="1.8" />
+      <module name="integration-common" target="1.8" />
+      <module name="integration-demo" target="1.8" />
+      <module name="integration-demo-api" target="1.8" />
+      <module name="integration-desk" target="1.8" />
+      <module name="integration-desk-api" target="1.8" />
+      <module name="integration-develop" target="1.8" />
+      <module name="integration-dict-api" target="1.8" />
+      <module name="integration-gateway" target="1.8" />
+      <module name="integration-hot-search" target="8" />
+      <module name="integration-logs" target="1.8" />
+      <module name="integration-ops" target="1.8" />
+      <module name="integration-report" target="1.8" />
+      <module name="integration-resource" target="1.8" />
+      <module name="integration-scope-api" target="1.8" />
+      <module name="integration-seata-order" target="1.8" />
+      <module name="integration-seata-storage" target="1.8" />
+      <module name="integration-service" target="1.8" />
+      <module name="integration-service-api" target="1.8" />
+      <module name="integration-swagger" target="1.8" />
+      <module name="integration-system" target="1.8" />
+      <module name="integration-system-api" target="1.8" />
+      <module name="integration-user" target="1.8" />
+      <module name="integration-user-api" target="1.8" />
+      <module name="resource-integration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="blade-demo-api" options="-parameters" />
-      <module name="blade-desk-api" options="-parameters" />
-      <module name="blade-dict-api" options="-parameters" />
-      <module name="blade-log" options="-parameters" />
-      <module name="blade-scope-api" options="-parameters" />
-      <module name="blade-system-api" options="-parameters" />
-      <module name="blade-user-api" options="-parameters" />
       <module name="integration-admin" options="-parameters" />
       <module name="integration-auth" options="-parameters" />
       <module name="integration-common" options="-parameters" />
@@ -64,21 +74,16 @@
       <module name="integration-gateway" options="-parameters" />
       <module name="integration-hot-search" options="-parameters" />
       <module name="integration-logs" options="-parameters" />
-      <module name="integration-ops" options="-parameters" />
       <module name="integration-report" options="-parameters" />
       <module name="integration-resource" options="-parameters" />
       <module name="integration-scope-api" options="-parameters" />
       <module name="integration-seata-order" options="-parameters" />
       <module name="integration-seata-storage" options="-parameters" />
-      <module name="integration-service" options="" />
-      <module name="integration-service-api" options="" />
       <module name="integration-swagger" options="-parameters" />
       <module name="integration-system" options="-parameters" />
       <module name="integration-system-api" options="-parameters" />
       <module name="integration-user" options="-parameters" />
       <module name="integration-user-api" options="-parameters" />
-      <module name="resource-integration" options="" />
-      <module name="swagger-ui" options="-parameters" />
     </option>
   </component>
 </project>
